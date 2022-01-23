@@ -1,4 +1,4 @@
-5 motivos para você aprender JavaScript!
+﻿9 motivos para você aprender JavaScript!
 ------------------------------------------
 
 O JavaScript é uma linguagem de programação muito poderosa utilizada em todo o mundo!
@@ -22,3 +22,17 @@ O JavaScript te permite dar dinamismos às páginas. É ele quem garante que sua
 #4 Utilizado no back-end e no front-end.
 
 #5 Muitas opções de bibliotecas e frameworks que vão maximizar sua produtividade.
+
+#6 é uma linguagem server-side que posibilita rodar tanto no client qunato server
+
+#7 O java script está sendo a ferramenta mais usado no mercado.
+
+#8 porque todos os sites precisam de javascripts.
+
+#9 porque todos os sites precisam de javascripts.
+
+#10 é uma linguagem versátil e compatível com usuários e servidores.
+
+#11 o JavaScrip é um requisito em várias empresas de tecnologia.
+
+#12 
