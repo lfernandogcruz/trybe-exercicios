@@ -1,0 +1,25 @@
+- ir até a porta do apto
+- pegar carteira e alcool em gel
+- colocar carteira e alcool em gel no bolso
+- girar a chave na fechadura para destranca-la
+- retirar a chave da fechadura
+- virar a maçaneta e abrir a porta
+- sair pela porta e dar meia volta
+- fechar a poprta
+- inserir a chave na fechadura e gira-la para trancar a porta
+- retirar achave da fechadura e gurada-la no bolso
+- ir até o elevador
+- apertar o botao de 'cxhamar elevador' e aguardar ate a porta abrir
+- entrar no elevador
+- apertar o botao '0' no painel
+- aguardar chegar no térreo e abrir a porta do elevador
+- sair elevador
+- ir até a portaria
+- apertar o botao para destravar o portao
+- abrir o portao
+- sair para a rua
+- virar para a esquerda e andar até o fim do quarteirao
+- virar para a direita e andar ate o fim do quarteirao
+- virar para a direita e andar até haver uma rua á esquerda
+- virar para a esquerda e andar até chegar a feira
+
