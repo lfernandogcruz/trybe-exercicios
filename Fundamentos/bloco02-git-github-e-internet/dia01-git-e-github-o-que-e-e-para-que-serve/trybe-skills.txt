@@ -4,8 +4,14 @@ O que eu vou aprender na Trybe:
 - Bash
 - Git
 <<<<<<< HEAD
+<<<<<<< HEAD
 - JavaScript
 - React
 =======
 - HTML
+>>>>>>> trybe-skills-updates
+=======
+- HTML
+- JavaScript
+- React
 >>>>>>> trybe-skills-updates
