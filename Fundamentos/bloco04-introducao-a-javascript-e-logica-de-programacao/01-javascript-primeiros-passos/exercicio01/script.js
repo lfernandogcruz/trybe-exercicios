@@ -50,3 +50,29 @@
 // }
 //
 // exercicio 11
+const salBruto = 3000;
+let inss = 0;
+
+if (salBruto > 5189.82) {
+    inss = 570.88;
+} else if (salBruto <= 5189.82 && salBruto >= 2594.93) {
+    inss = salBruto * 0.11;
+} else if (salBruto >= 1556.95 && salBruto <= 2594.92) {
+    inss = salBruto * 0.09;
+} else if (salBruto <= 1556.92) {
+    inss = salBruto * 0.08;
+}
+
+let salDeduzido = salBruto - inss;
+
+if (salDeduzido <= 1903.98) {
+    console.log('Salário Bruto é', salBruto, '. E o Salário líquido é de', salDeduzido);
+} else if (salDeduzido <= 2826.65) {
+    console.log('Salário Bruto é', salBruto, '. E o Salário líquido é de', (salDeduzido - ((salDeduzido * 0.075) - 142.80)));
+} else if (salDeduzido <= 3751.05) {
+    console.log('Salário Bruto é', salBruto, '. E o Salário líquido é de', (salDeduzido - ((salDeduzido * 0.15) - 354.80)));
+} else if (salDeduzido <= 4664.68) {
+    console.log('Salário Bruto é', salBruto, '. E o Salário líquido é de', (salDeduzido - ((salDeduzido * 0.225) - 636.13)));
+} else if (salDeduzido >= 4664.68) {
+    console.log('Salário Bruto é', salBruto, '. E o Salário líquido é de', (salDeduzido - ((salDeduzido * 0.275) - 869.36)));
+}
