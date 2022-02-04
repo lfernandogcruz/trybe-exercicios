@@ -66,8 +66,16 @@
 // exercicio 8
 // let contando = [];
 // for ( let i = 1 ; i <= 25 ; i += 1 ) {
-//     contando.push(i)
+//     contando.push(i);
 // }
 // console.log(contando);
 //
 //exercicio 9
+let contando = [];
+for ( let i = 1 ; i <= 25 ; i += 1 ) {
+    contando.push(i);
+}
+for (j=0; j<contando.length; j+=1) {
+    contando[j]=contando[j]/2;
+}
+console.log(contando);
