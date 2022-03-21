@@ -9,8 +9,11 @@ const names = [
 function containsA(array) {
   // escreva seu código aqui
   const aaaaa = array.join('');
-  aaaaa.reduce((acc, cur) => (cur === 'A' || cur === 'a') ? acc += 1 : acc, 0);
-  return aaaaa;
+  return aaaaa.split('').reduce(((acc, cur) => {
+    if (cur === 'A' || cur === 'a')
+      acc += 1;
+    return acc;
+  }), 0);
 }
 
 console.log(containsA(names));
