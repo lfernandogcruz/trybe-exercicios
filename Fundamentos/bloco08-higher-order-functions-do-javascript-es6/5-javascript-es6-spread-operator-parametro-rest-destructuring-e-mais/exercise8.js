@@ -4,7 +4,7 @@
 // Dica: use default params .
 
 // escreva greet abaixo
-const greet = (name, salutation = 'Hi') => `${salutation} ${name}`;
+const greet = (name, salutation = 'Hi') => `${salutation} ${name}`; 
 
 console.log(greet('John')) // 'Hi John'
 console.log(greet('John', 'Good morning')) // 'Good morning John'
