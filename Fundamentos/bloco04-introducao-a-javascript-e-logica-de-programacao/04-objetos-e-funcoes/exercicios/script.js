@@ -63,10 +63,13 @@ let info2 = {
 }
 
 for (let i in info) {
-    if (
-        i === 'recorrente' && 
-        info[i] === 'Sim' && 
-        info2[i] === 'Sim') {
+
+  //   if (
+  //       i === 'recorrente' && 
+  //        info[i] === 'Sim' && 
+  //       info2[i] === 'Sim') {
+    if (i === 'recorrente' && info[i] === 'Sim' && info2[i] === 'Sim') {
+
         console.log('Ambos são recorrentes');
     } else {
         console.log(info[i], 'e', info2[i]);

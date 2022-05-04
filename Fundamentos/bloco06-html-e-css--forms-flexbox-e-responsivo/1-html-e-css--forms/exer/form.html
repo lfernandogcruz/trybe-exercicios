@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario 1</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<main>
+		<form action="" method="get">
+			<!-- O formulário deverá permitir que o usuário insira os seguintes campos:
+			Nome Completo:
+			Limitado entre 10 e 40 caracteres. -->
+			<fieldset>
+				<br>
+				Nome:
+				<input type="text" name="fullName" id="input-name" min="10" max="40" required>
+
+				<!-- E-mail:
+			Limitado entre 10 e 50 caracteres. -->
+				<br>
+				E-mail:
+				<input type="email" name="email" id="input-email" min="10" max="50" required>
+
+				<!-- Destino Preferido:
+			4 opções: Cidade, Campo, Praia, Montanhas. -->
+				<br>
+				<label for="cidade">
+					<input type="radio" name="destino" id="cidade">Cidade
+				</label>
+				<label for="campo">
+					<input type="radio" name="destino" id="campo">Campo
+				</label>
+				<label for="praia">
+					<input type="radio" name="destino" id="praia" checked>Praia
+				</label>
+				<label for="montanhas">
+					<input type="radio" name="destino" id="montanhas">Montanhas
+				</label>
+				<!-- Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+			Limite de 500 caracteres. -->
+				<br>
+				<p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+				<textarea name="texto" id="texto" max="500" cols="30" rows="5"></textarea>
+				<br>
+				Data:
+				<!-- Qual a melhor data para realizar sua viagem? -->
+				<input type="date" name="data" id="input-data">
+				<br>
+				<!-- Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? -->
+				<label for="ofertas">
+					<input type="checkbox" name="ofertas" id="ofertas">Gostaria de receber outras incríveis oportunidades
+					oferecidas
+					pela Trybe?
+				</label>
+				<br>
+				<!-- Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. -->
+				<label for="agreed">
+					<input type="checkbox" name="agreed" id="agreed" required>Concordo que imagens das minhas férias poderão ser
+					usadas na divulgação de concursos futuros.
+				</label>
+				<br>
+			</fieldset>
+			<!-- Crie um botão para enviar as informações preenchidas. -->
+			<button type="submit" id="send">Enviar</button>
+			<button type="reset" id="clear">Apagar</button>
+
+		</form>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
